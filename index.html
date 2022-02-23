@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="index.js"></script>
-    <title>fuck you</title>
-  </head>
-  <body>
-    <label for="name">Write your name</label>
-    <br>
-    <textarea name="name" id="name"></textarea>
-    <button type="button" name="submit" onclick="
-      var x = document.querySelector('textarea').value
-      get_name(x)
-      display_image('fuck.jpg');
-      display_gif('fuckyou.gif');
-      ">submit</button>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+		<title>fuck you</title>
+	</head>
+	<body>
+    <div class="container">
+    <h1>FUCK YOU</h1>
+    <div class="item1">
+		  <label for="name">Write your name</label>
+		  <br />
+      <textarea name="name" id="name"></textarea>
+  		<button type="button"	name="submit"	onclick="
+        var x = document.querySelector('textarea').value
+        get_name(x)
+        display_image();
+        display_gif();
+        ">
+  			submit
+  		</button>
+    </div>
+    <p></p>
+    <footer>
+      created by ugoni
+      <br>
+      instagram: <a id="insta" href="https://www.instagram.com/gonari6080/">gonari6080</a>
+    </footer>
+    </div>
+	</body>
 </html>

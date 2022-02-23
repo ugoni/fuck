@@ -1,0 +1,33 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#insta{
+  text-decoration: none;
+  color: gray;
+}
+
+h1{
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-bottom: 5px solid gray;
+}
+
+footer{
+  grid-column-start: -3;
+  grid-column-end: -2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#item1{
+  grid-column-start: -3;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
