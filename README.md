@@ -1,1 +1,1 @@
-# This website is a joke
+# This website is made for my friends
